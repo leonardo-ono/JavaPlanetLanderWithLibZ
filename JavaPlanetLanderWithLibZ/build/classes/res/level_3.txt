@@ -1,0 +1,12 @@
+#Level 3
+#Fri Dec 23 03:41:29 BRST 2016
+fuel.x=0
+level=3
+fuel.startValue=100
+platform.y=54
+platform.x=213
+fuel.visible=false
+ship.y=154
+ship.x=33
+meteors.visible=false
+fuel.y=0
