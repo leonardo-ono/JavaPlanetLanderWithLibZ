@@ -39,7 +39,7 @@ public class Explosion extends PlanetLanderEntity {
     @Override
     public void update(GameCore gc) {
         int frame = (int) ((System.currentTimeMillis() - startTime) / 100);
-        if (frame < 5) {
+        if (frame >= 0 && frame < 5) {
             pixels = frames[frame];
             visible = true;
         }
